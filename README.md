@@ -15,7 +15,6 @@
 | 2 | **Nguyễn Thái Sơn** | 23521356 |
 
 - **Lớp:** CS519.Q11
-- **Link GitHub:** [https://github.com/nhattan2005/CS519](https://github.com/nhattan2005/CS519)
 - **Demo Video:** [YouTube Link](https://youtu.be/u8JvkWEmVOY)
 
 ---
@@ -26,7 +25,7 @@ Ung thư vú là nguyên nhân tử vong hàng đầu ở phụ nữ toàn cầu
 
 Các mô hình Deep Learning hiện tại gặp hạn chế:
 - **CNN (U-Net, ResNet):** Vùng tiếp nhận cục bộ, khó nắm bắt ngữ cảnh toàn cục.
-- **Vision Transformer (ViT):** Chi phí tính toán quá lớn ($O(N^2)$) khi xử lý chuỗi token dài từ ảnh 3D MRI.
+- **Vision Transformer (ViT):** Chi phí tính toán quá lớn khi xử lý chuỗi token dài từ ảnh 3D MRI.
 
 👉 **Giải pháp:** Đồ án này đề xuất **MedMamba-Fusion**, ứng dụng kiến trúc **State Space Models (Mamba)** với độ phức tạp tuyến tính $O(N)$, kết hợp đa phương thức (ảnh 3D DCE-MRI + dữ liệu lâm sàng) trên bộ dữ liệu chuẩn hóa quy mô lớn **MAMA-MIA**.
 
